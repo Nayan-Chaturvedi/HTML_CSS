@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#left{
+    height: 100%;
+    width: 65%; 
+}
+
+#top1{
+    height: 70%;
+    width: 100%;
+   background-image: url(https://media.istockphoto.com/id/1372896722/photo/potted-banana-plant-isolated-on-white-background.jpg?s=612x612&w=is&k=20&c=DvYfTEdNafed9WUXhTluvn6IbA7vJPyDAZQOf6cqzrg=);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+
+#bottomArrowTop{
+    height: 100px;
+    width: 120px;
+    background-color: aqua;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+
+}
+
+#iconTop{
+    position: absolute;
+    
+}
+
+#bottom1{
+    height:30% ;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    
+}
+
+#content{
+    width: 100%;
+    height: 100%;  
+    display: flex;
+    justify-content: space-between;
+}
+
+#ContentLeft1{
+    width: 35%;
+    height: 100%;
+    text-align: center; 
+}
+
+#ContentLeft1 h4{
+    font-weight: 900;
+    font-style: italic;
+}
+
+#ContentLeft1 p{
+    margin-top: 8%;
+}
+
+#ContentRight1{
+    width: 55%;
+    height: 100%;
+    
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.relem{
+    display: flex;
+    margin-top: 5px;
+}
+
+.releText{
+    margin-left: 5px;
+}
+
+.releText h6{
+    opacity: .5;
+    font-weight: 5%;
+}
+
+#right{
+    height: 100%;
+    width: 35%;
+    
+}
+
+#top2{
+    height: 70%;
+    width: 100%;
+    flex-direction: column;
+    background-color: rgb(187, 252, 8);
+    display: flex;
+    padding: 60px;
+    position: relative;
+}
+
+#top2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+
+/* #top2 a:nth-child(2)::before
+{
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: -30px;
+    top: 10px;  
+}
+
+#top2 a:nth-child(2){
+    margin-left: 30px;
+    position: relative;
+} */
+
+
+#icons{
+    top: 0;
+    right: 0;
+    position: absolute;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#icons i{
+    font-size: large;
+}
+
+#bottomFlower{
+    width: 100px;
+    height: 120px;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background-image: url(https://plus.unsplash.com/premium_photo-1681807326535-621ae5ef9da3?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+#bottomFlower i{
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.56);
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+
+
+#top2 #about::before{
+    content: "";
+    background-color: white;
+    height: 2px;
+    width: 20px;
+    position: absolute;
+    left: -30px;
+    top: 10px;
+
+    transform: translate(0 -50%);
+}
+
+#top2 #about
+{
+    color: red;
+    margin-left: 30px;
+    position: relative;
+}
+
+
+
+
+#top2 #adventure{
+    color: gray;
+    margin-left: 30px;
+    position: relative;
+
+}
+
+
+#top2 #adventure::before{
+    content: "";
+    height: 2px;
+    width: 20px;
+    background-color: white;
+    position: absolute;
+    left: -30px;
+   
+    transform: translate(0, 10px);
+
+}
+
+
+
+
+
+
+
+
+#bottom2{
+    height: 30%;
+    width: 100%;
+    background-color: cornsilk;
+}
+
+
